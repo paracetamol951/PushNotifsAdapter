@@ -1,0 +1,16 @@
+{
+  "name": "tarot-push-relay",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Relais Web Push prive pour les serveurs PHP historiques du Tarot",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "web-push": "3.6.7"
+  }
+}
